@@ -13,4 +13,6 @@ def about():
     return {"Insitute": "Piaic"}
 
 
-
+@app.get("/me")
+def me():
+    return {"name": "Areeb Ahmed"}
